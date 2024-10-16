@@ -4,10 +4,10 @@ import React, { memo, Fragment } from "react";
 import { Link } from "react-router-dom";
 
 // img
-import img1 from "/assets/images/logoss.webp";
-import hostar from "/assets/images/logoss-hotstar.webp";
-import prime from "/assets/images/logoss-prime.webp";
-import hulu from "/assets/images/logoss-hulu.webp";
+// import img1 from "/assets/images/logoss.webp";
+// import hostar from "/assets/images/logoss-hotstar.webp";
+// import prime from "/assets/images/logoss-prime.webp";
+// import hulu from "/assets/images/logoss-hulu.webp";
 
 const Logo = memo(() => {
   return (
@@ -16,7 +16,7 @@ const Logo = memo(() => {
         <Link className="navbar-brand text-primary" to="/">
           <img
             className="img-fluid logo"
-            src={img1}
+            src={""}
             loading="lazy"
             alt="WilluminatyTV"
           />
@@ -26,7 +26,7 @@ const Logo = memo(() => {
         <Link className="navbar-brand text-primary" to="/">
           <img
             className="img-fluid logo"
-            src={hostar}
+            src={""}
             loading="lazy"
             alt="WilluminatyTV"
           />
@@ -36,7 +36,7 @@ const Logo = memo(() => {
         <Link className="navbar-brand text-primary" to="/">
           <img
             className="img-fluid logo"
-            src={prime}
+            src={""}
             loading="lazy"
             alt="WilluminatyTV"
           />
@@ -46,7 +46,7 @@ const Logo = memo(() => {
         <Link className="navbar-brand text-primary" to="/">
           <img
             className="img-fluid logo"
-            src={hulu}
+            src={""}
             loading="lazy"
             alt="WilluminatyTV"
           />

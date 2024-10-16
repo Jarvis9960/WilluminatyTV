@@ -16,7 +16,7 @@ import "./assets/custom/css/custom.scss"
 import "choices.js/public/assets/styles/choices.min.css";
 
 //router
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, createHashRouter } from "react-router-dom";
 
 // store
 import { store } from "./store/index";
@@ -25,7 +25,7 @@ import { Provider } from "react-redux";
 // index router
 import { IndexRouters } from "./router/index";
 
-const router = createBrowserRouter([...IndexRouters], {
+const router = createHashRouter([...IndexRouters], {
   basename: import.meta.env.VITE_URL,
 });
 ReactDOM.createRoot(document.getElementById("root")).render(
