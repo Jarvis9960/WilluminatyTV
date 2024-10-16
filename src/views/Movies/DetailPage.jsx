@@ -118,7 +118,7 @@ const MovieDetail = memo(() => {
     techOrder: ["youtube"],
     sources: [
       {
-        src: "https://www.youtube.com/watch?v=QCGq1epI9pQ",
+        src: "https://www.youtube.com/watch?v=jcNIs0OqK7c",
         type: "video/youtube",
       },
     ],

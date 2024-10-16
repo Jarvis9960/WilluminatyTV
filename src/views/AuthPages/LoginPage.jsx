@@ -99,7 +99,7 @@ const LoginPage = memo(() => {
                     </Form.Group>
                     <Form.Group className="text-end mb-3">
                       <Link
-                        to="/lost-password"
+                        to="/#/lost-password"
                         className="text-primary fw-semibold fst-italic"
                       >
                         {t("form.forgot_password?")}
@@ -130,7 +130,7 @@ const LoginPage = memo(() => {
                   </Form>
                   <p className="my-4 text-center fw-500 text-white">
                     {t("form.new_to_willuminaty")}{" "}
-                    <Link to="/#/register" className="text-primary ms-1">
+                    <Link to="/register" className="text-primary ms-1">
                       {t("form.register")}
                     </Link>
                   </p>
