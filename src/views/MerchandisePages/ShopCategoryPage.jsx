@@ -63,7 +63,7 @@ const ShopCategoryPage = memo((props) => {
                             <img src={item.thumbnail} className="img-fluid" />
                           </div>
                           <div className="">
-                            <Link to="/product-detail" className="">
+                            <Link to="/#/product-detail" className="">
                               {t(item.product_name)}
                             </Link>
                             <div>

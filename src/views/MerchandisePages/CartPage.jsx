@@ -300,7 +300,7 @@ const CartPage = memo(() => {
                   <div className="button-primary">
                     <CustomButton
                       buttonTitle={t('shop.proceed_to_checkout')}
-                      link="/checkout"
+                      link="/#/checkout"
                       linkButton="false"
                     />
                   </div>

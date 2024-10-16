@@ -100,8 +100,8 @@ const ViewAll = memo(() => {
                     image={item.image}
                     title={t(item.title)}
                     movieTime={item.movieTime}
-                    watchlistLink="/playlist"
-                    link="/movies-detail"
+                    watchlistLink="/#/playlist"
+                    link="/#/movies-detail"
                   />
                 </Col>
               ))}

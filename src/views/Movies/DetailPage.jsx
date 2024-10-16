@@ -447,7 +447,7 @@ const MovieDetail = memo(() => {
                             </Col>
                             <Col className="col-8 block-description">
                               <h6 className="iq-title">
-                                <Link to="/cast-detail">{t(item.title)}</Link>
+                                <Link to="/#/cast-detail">{t(item.title)}</Link>
                               </h6>
                               <div className="video-time d-flex align-items-center my-2">
                                 <small className="text-white">{t(item.as)}</small>
@@ -509,7 +509,7 @@ const MovieDetail = memo(() => {
                             </div>
                             <div className="col-8 block-description">
                               <h6 className="iq-title">
-                                <Link to="/cast-detail">{t(item.title)}</Link>
+                                <Link to="/#/cast-detail">{t(item.title)}</Link>
                               </h6>
                               <div className="video-time d-flex align-items-center my-2">
                                 <small className="text-white">{t(item.as)}</small>

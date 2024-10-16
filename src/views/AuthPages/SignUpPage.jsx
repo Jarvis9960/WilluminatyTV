@@ -165,7 +165,7 @@ const SignUpPage = memo(() => {
                   >
                     <Form.Check.Input className="m-0 me-2" type="checkbox" />
                     {t("form.read_and_accept")}
-                    <Link to="/terms-of-use" className="ms-1">
+                    <Link to="/#/terms-of-use" className="ms-1">
                       {t("form.terms_conditions")}
                     </Link>
                   </Form.Label>
@@ -191,7 +191,7 @@ const SignUpPage = memo(() => {
                         </div>
                         <p className="mt-2 mb-0 fw-normal">
                           {t("form.already_account")}?
-                          <a href="/login" className="ms-1">
+                          <a href="/#/login" className="ms-1">
                             {t("shop.login")}
                           </a>
                         </p>

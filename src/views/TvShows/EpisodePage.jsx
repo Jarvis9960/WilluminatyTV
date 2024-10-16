@@ -380,7 +380,7 @@ const TvShowsDetail = memo(() => {
                     <SwiperSlide key={index}>
                       <div className="episode-block">
                         <div className="block-image position-relative">
-                          <Link to="/episodes">
+                          <Link to="/#/episodes">
                             <img
                               src={item.thumbnail}
                               alt="showImg"
@@ -392,7 +392,7 @@ const TvShowsDetail = memo(() => {
                             {item.episode_no}
                           </div>
                           <div className="episode-play">
-                            <Link to="/episodes">
+                            <Link to="/#/episodes">
                               <i className="fa-solid fa-play"></i>
                             </Link>
                           </div>
@@ -406,7 +406,7 @@ const TvShowsDetail = memo(() => {
                               {item.duration}
                             </span>
                           </div>
-                          <Link to="/episodes">
+                          <Link to="/#/episodes">
                             <h5 className="epi-name text-white mb-0">
                               {t(item.name)}
                             </h5>

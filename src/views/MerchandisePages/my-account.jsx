@@ -118,7 +118,7 @@ const MyAccount = memo(() => {
                     <div className="myaccount-content text-body p-4">
                       <p>
                         {t("shop.hello_jenny")}{" "}
-                        <Link to="/login">{t("shop.log_out")}</Link>)
+                        <Link to="/#/login">{t("shop.log_out")}</Link>)
                       </p>
                       <p>
                         {t("shop.your_account")}{" "}
@@ -929,7 +929,7 @@ const MyAccount = memo(() => {
                             <p className="mb-5">
                               {" "}
                               {t("shop.user_personal_data")}{" "}
-                              <Link to="/privacy-policy">
+                              <Link to="/#/privacy-policy">
                                 {" "}
                                 {t("shop.privacy_policy")}
                               </Link>

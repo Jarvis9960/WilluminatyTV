@@ -253,8 +253,8 @@ const Blogtemplate = memo(() => {
               </div>
               <FormWidget
                 id={blog.id}
-                nextLink="/blogs-detail"
-                prevLink="/blog-single/gallery"
+                nextLink="/#/blogs-detail"
+                prevLink="/#/blog-single/gallery"
               />
             </Col>
             <Col lg="4" md="12" sm="12" className="mt-5 mt-lg-0">

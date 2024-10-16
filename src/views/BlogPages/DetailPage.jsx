@@ -41,7 +41,7 @@ const BlogDetail = memo(() => {
                   <div className="iq-blog-meta d-flex mb-3">
                     <ul className="iq-blogtag list-inline">
                       <li className="border-gredient-left">
-                        <Link href="/blogs" className="iq-user">
+                        <Link href="/#/blogs" className="iq-user">
                           <i
                             className="fa fa-user-o me-1"
                             aria-hidden="true"
@@ -52,7 +52,7 @@ const BlogDetail = memo(() => {
                     </ul>
                     <ul className="list-inline mb-0 ms-2">
                       <li className="border-gredient-left">
-                        <Link rel="bookmark" to="/blogs-date">
+                        <Link rel="bookmark" to="/#/blogs-date">
                           <i
                             className="far fa-calendar-alt me-1"
                             aria-hidden="true"

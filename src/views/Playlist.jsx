@@ -194,7 +194,7 @@ const Playlist = memo(() => {
                                 </div>
                                 <div className="card-description">
                                   <h5 className="text-capitalize fw-500">
-                                    <Link to="/watchlist-detail">
+                                    <Link to="/#/watchlist-detail">
                                       {t(item.title)}
                                     </Link>
                                   </h5>
@@ -267,7 +267,7 @@ const Playlist = memo(() => {
                                 </div>
                                 <div className="card-description">
                                   <h5 className="text-capitalize fw-500">
-                                    <Link to="/watchlist-detail">
+                                    <Link to="/#/watchlist-detail">
                                       {t(item.title)}
                                     </Link>
                                   </h5>
@@ -340,7 +340,7 @@ const Playlist = memo(() => {
                                 </div>
                                 <div className="card-description">
                                   <h5 className="text-capitalize fw-500">
-                                    <Link to="/watchlist-detail">
+                                    <Link to="/#/watchlist-detail">
                                       {t(item.title)}
                                     </Link>
                                   </h5>

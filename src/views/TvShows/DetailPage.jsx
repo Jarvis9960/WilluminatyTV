@@ -332,7 +332,7 @@ const TvShowsDetail = memo(() => {
                         <Col lg={3} sm={12} md={6} key={index} className={`${index === shows.episodes.length - 1 ? 'mt-3 mt-md-0' : ''}`}>
                           <div className="episode-block">
                             <div className="block-image position-relative">
-                              <Link to="/episodes">
+                              <Link to="/#/episodes">
                                 <img
                                   src={item.thumbnail}
                                   alt="showImg"
@@ -344,7 +344,7 @@ const TvShowsDetail = memo(() => {
                                 {item.episode_no}
                               </div>
                               <div className="episode-play">
-                                <Link to="/episodes">
+                                <Link to="/#/episodes">
                                   <i className="fa-solid fa-play"></i>
                                 </Link>
                               </div>
@@ -358,7 +358,7 @@ const TvShowsDetail = memo(() => {
                                   {item.duration}
                                 </span>
                               </div>
-                              <Link to="/episodes">
+                              <Link to="/#/episodes">
                                 <h5 className="epi-name text-white mb-0">
                                   {item.name}
                                 </h5>

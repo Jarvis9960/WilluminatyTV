@@ -492,7 +492,7 @@ const CheckoutPage = memo(() => {
                     </div>
                     <p className="mt-3 mb-5">
                       {t("shop.your_personal_data")}{" "}
-                      <Link to="/PrivacyPolicy">{t("shop.privacy_policy")}</Link>.
+                      <Link to="/#/PrivacyPolicy">{t("shop.privacy_policy")}</Link>.
                     </p>
                     <CustomButton
                       buttonTitle={t("shop.place_order")}

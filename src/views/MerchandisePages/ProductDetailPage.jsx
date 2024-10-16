@@ -48,7 +48,7 @@ const ProductDetail = memo(() => {
           <div className="overflow-hidden">
             <div className="d-flex align-items-center justify-content-between px-3 my-4">
               <h5 className="main-title text-capitalize mb-0">{t("merchandise.related_products")}</h5>
-              <Link to="/all-product" className="text-primary iq-view-all text-decoration-none flex-none">{t("merchandise.want_more")}</Link>
+              <Link to="/#/all-product" className="text-primary iq-view-all text-decoration-none flex-none">{t("merchandise.want_more")}</Link>
             </div>
             <Swiper
               key={themeSchemeDirection}

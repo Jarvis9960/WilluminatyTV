@@ -50,7 +50,7 @@ const IndexPage = memo(() => {
         {heroSlider.map((item, index) => {
           return (
             <SwiperSlide className="slide m-0 p-0 home-slider" key={index}>
-              <Link to="/product-detail" className="card-link">
+              <Link to="/#/product-detail" className="card-link">
                 <img
                   src={item.thumbnail}
                   alt="swiperimg"
@@ -153,7 +153,7 @@ const IndexPage = memo(() => {
           <Row className="gx-0">
             <Col lg="4" md="6" className="d-flex flex-column">
               <div className="product-box left-1-productbox">
-                <Link to="/shop" className="card-link"></Link>
+                <Link to="/#/shop" className="card-link"></Link>
                 <div
                   className="card-img-overlay product-card-img-overlay"
                   style={{
@@ -177,7 +177,7 @@ const IndexPage = memo(() => {
                 </div>
               </div>
               <div className="product-box left-2-productbox">
-                <Link to="/shop" className="card-link"></Link>
+                <Link to="/#/shop" className="card-link"></Link>
                 <div
                   className="card-img-overlay product-card-img-overlay mt-lg-0 mt-md-4 mt-4"
                   style={{
@@ -201,7 +201,7 @@ const IndexPage = memo(() => {
             </Col>
             <Col lg="4" md="6" className="mt-md-0 mt-4">
               <div className="center-productbox product-box">
-                <Link to="/shop" className="card-link"></Link>
+                <Link to="/#/shop" className="card-link"></Link>
                 <div
                   className="card-img-overlay product-card-img-overlay"
                   style={{
@@ -229,7 +229,7 @@ const IndexPage = memo(() => {
               className="d-flex flex-column mt-lg-0 mt-md-4 mt-4"
             >
               <div className="product-box right-1-productbox">
-                <Link to="/shop" className="card-link"></Link>
+                <Link to="/#/shop" className="card-link"></Link>
                 <div
                   className="card-img-overlay product-card-img-overlay md-mt-5"
                   style={{
@@ -251,7 +251,7 @@ const IndexPage = memo(() => {
                 </div>
               </div>
               <div className="product-box right-2-productbox">
-                <Link to="/shop" className="card-link"></Link>
+                <Link to="/#/shop" className="card-link"></Link>
                 <div
                   className="card-img-overlay product-card-img-overlay mt-lg-0 mt-md-4 mt-4"
                   style={{
@@ -371,7 +371,7 @@ const IndexPage = memo(() => {
                   <CustomButton
                     linkButton="false"
                     buttonTitle={t("merchandise.view_collection")}
-                    link="/shop"
+                    link="/#/shop"
                   />
                 </div>
               </div>
@@ -391,7 +391,7 @@ const IndexPage = memo(() => {
                   <CustomButton
                     linkButton="false"
                     buttonTitle={t("merchandise.view_collection")}
-                    link="/shop"
+                    link="/#/shop"
                   />
                 </div>
               </div>
@@ -423,7 +423,7 @@ const IndexPage = memo(() => {
               <CustomButton
                 linkButton="false"
                 buttonTitle={t("merchandise.shop_now")}
-                link="/product-detail"
+                link="/#/product-detail"
               />
             </div>
           </div>
